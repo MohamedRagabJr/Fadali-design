@@ -1,0 +1,71 @@
+.has-dropdown .submenu{
+    right: 0;
+    left: inherit;
+    text-align: right;
+}
+.has-dropdown .submenu li.lim a {
+    padding: 12px 20px 12px 35px !important;
+}
+.has-dropdown .submenu li.lim.sub-dropdown::after {
+    left: 15px;
+    right: inherit;
+}
+.sub-dropdown:hover .submenu.third-lvl.base{
+    right: 100%;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: inherit;
+}
+.fa-arrow-right:before {
+    content: "\f060"
+}
+.accordion-service-1 .accordion-item .accordion-header button::after {
+    right: inherit;
+    left: 0
+}
+.thumbnail-about-one::after{
+    right: -1px;
+    left: inherit;
+}
+.title-area-product-one .swiper-next-prev-wrapper .swiper-button-prev {
+    right: auto !important;
+    left: 0 !important;
+}
+.title-area-product-one .swiper-next-prev-wrapper .swiper-button-next {
+    left: 0;
+    right: inherit;
+}
+.footer-area-wrapper-one .single-footer-wized form .input-email i{
+    left: 0;
+    right: inherit;
+}
+.single-footer-wized .menu-links-area ul li::after {
+    left: inherit;
+    right: 0
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+
+.signle-blog-style-one .thumbnail .tag {
+    right: 0;
+    left: inherit;
+}
+
+.signle-blog-style-one .inner-content .btn-blog-readmore {
+    justify-content: flex-start;
+}
+.counter-wrapper-one::before {
+    left: inherit;
+    right: 43%;
+}
+.mobile-menu-main nav ul li.has-droupdown::after {
+    left: 0;
+    right: inherit;
+}
+@media only screen and (max-width: 767px) {
+    .banner-twoa-rea-start .banner-inner-content-wrapper {
+        right: 20px;
+        left: inherit;
+    }
+}
